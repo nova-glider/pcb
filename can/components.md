@@ -1,6 +1,6 @@
 # charging
-* MCP73871-2CCI/ML
-* Molex 105450-0101
+* MCP73871-2CCI/ML: charge controller
+* Molex 105450-0101: USB-C port
 * USB-C CC resistors (to advertise as a device / draw VBUS): 5.1 kΩ ±1%
 * ST USBLC6-2SC6
 * USB D+/D- series resistors: 22 Ω
