@@ -1,5 +1,98 @@
-(kicad_sch (version 20230121) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "435563e2-dd37-4dc4-abda-22a18907ee4d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 215.9 91.44)
+		(size 29.21 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebb48ad4-dd33-4993-832f-33e78d08b792")
+		(property "Sheetname" "MCU & peripherals"
+			(at 215.9 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_and_peripherals.kicad_sch"
+			(at 215.9 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "novacan_can"
+				(path "/435563e2-dd37-4dc4-abda-22a18907ee4d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 80.01)
+		(size 29.21 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f363c279-1397-4c68-a09c-e462232dccb9")
+		(property "Sheetname" "Power"
+			(at 215.9 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 215.9 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "novacan_can"
+				(path "/435563e2-dd37-4dc4-abda-22a18907ee4d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
