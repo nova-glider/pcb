@@ -185,14 +185,14 @@
 		(start 26 8.5)
 		(end 26 2)
 	)
-	(tbtext "NovaGlider"
+	(tbtext "NovaGlider - CanSat 2025/2026\n"
 		(name "")
-		(pos 269.9892 179.5022)
+		(pos 269.989 179.502)
 		(option page1only)
 		(font
 			(size 2.54 2.54) bold)
 	)
-	(tbtext "This schematic is part of the CanSat Belgium competition for the NovaGlider team by the Saint-Barbara College in Ghent.\nThis schematic has the STM32F103C8T6 at it's core. It is powered by a single-cell lipo battery that is converted by the TPS63020DSJR (3V3) and a MP28163GQ-P (5V0).\n\nIt's main features are:\n1) 3x servo\n2) BME280 to measure air pressure, humidity and temperature (i2c adress 0x76)\n3) MPU9250 9-axis accelerometer, gyrometer and compass (i2c adress 0x68)\n4) RFM69HCW 433 mHz radio module (SPI)\n5) A micro-SD card\n6) UART connector for a GPS module\n7) 3 push buttons for general purpose input"
+	(tbtext "System Schematic - Revision 1.1\n\nProject Description:\nNovaGlider is an integrated electronics system designed for the CanSat competition.\nIts primary purpose is to collect environmental and inertial data, transmit telemetry, and log mission information during descent. The system is built around the STM32F103C8T6 ARM Cortex-M3 microcontroller.\n\nSubsystem Overview:\n\nMicrocontroller: STM32F103C8T6\n\nSensors:\n\nBME280 (temperature, humidity, pressure)\nMPU9250 (IMU: accelerometer, gyroscope, magnetometer)\nCommunication: RFM69HCW sub-GHz radio module\nData Storage: Micro-SD card interface\nActuation: 3 × servo outputs\nUser Interface: 3 push buttons\nConnectivity: UART header for programming/debug\nPower / Charging: USB-C connector for programming the MCU and charging the Li-Po battery\n\nDesign Notes:\n\nAll modules operate from regulated 3.3V, except the servos, which operate from 5V.\nAppropriate decoupling capacitors are placed near all ICs and sensors.\nPower sequencing and protection components are included for safe Li-Po usage.\nHigh-frequency modules (IMU, radio, SD) follow recommended layout constraints.\n\nPurpose of This Document:\nThis schematic provides an overview of the electrical design for NovaGlider. It is intended to guide PCB development, allow peer review, and support verification during the competition's integration and testing phases."
 		(name "")
 		(pos 269.989 177.002)
 		(option page1only)

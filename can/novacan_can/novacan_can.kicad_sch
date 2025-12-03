@@ -6,15 +6,15 @@
 	(paper "A4")
 	(title_block
 		(title "NovaGlider")
-		(date "2025-12-02")
-		(rev "v1.0")
+		(date "2025-12-03")
+		(rev "v1.1")
 		(company "NovaGlider")
 		(comment 1 "part of Saint-Barbara college")
 		(comment 2 "created by Sam Vandenabeele")
 	)
 	(lib_symbols)
 	(sheet
-		(at 17.78 64.77)
+		(at 17.78 107.95)
 		(size 29.21 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30,7 +30,7 @@
 		)
 		(uuid "ebb48ad4-dd33-4993-832f-33e78d08b792")
 		(property "Sheetname" "MCU & peripherals"
-			(at 17.78 64.0584 0)
+			(at 17.78 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_and_peripherals.kicad_sch"
-			(at 17.78 69.1646 0)
+			(at 17.78 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 53.34)
+		(at 17.78 99.06)
 		(size 29.21 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +72,7 @@
 		)
 		(uuid "f363c279-1397-4c68-a09c-e462232dccb9")
 		(property "Sheetname" "Power"
-			(at 17.78 52.6284 0)
+			(at 17.78 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +81,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 17.78 57.7346 0)
+			(at 17.78 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,28 +107,36 @@
 		(file
 			(name "base template.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WAuDUUjAPa6sSjQ0jgHaJFCXmtSqwObuLFtyOqRKc7VCCm9Bf40wd1UgKLtIFeLOoxBngC0
-				AKIAXS0o3pL/rAeJkDeJ+9MWrCx5aJVIV6u0J3t8L9drteYODyEamuU+Z65pn0X9rY7snYe8K3ed
-				1eTlt8qS6jDG9539QSDnbtbW+Ha2234826IQvTC+0tCdnadBzE1WpOBFvVEOrpSbLCqeO+jXJO4I
-				AECAgDdq/iB1QTwQurGH8yC/tuflyqGpEmOsJJSvln6XNyIAAQKfBodnmxrViARzw0rIibSuSlYS
-				eVVxImEVMwmMplSn19kLlBgSlo1m4kJxyCybDINxwCqVipJoLBKYiAwDZdAoN5ueQsGIicgyGdc0
-				k1HGjb6ZRdgAwsfAloG8Z3ct6Je9ueFgNpYNd1Bs4+znEpmxwHA2mFOpQA4RKckvGCUmMhgHY+FZ
-				sFwyEB4EFmUdxnhRk1MqH5jMsuDBVGBYxoPgCdxz4d5butyVtZdAtL9RhiUfLSVpHX4+HxirCEC1
-				M0ELK/LNAUVDNYkVudF8fqvzU2VRRc55wBaghNUE22Qb9+WNerl7fm49yp3jWDtgLlTp97nxZQ7b
-				mVN8v4Km7/lJVrlUMDLISpN9U1Q7VFcWNbzSc4g5zl4+7/zcqXDQlU6s9Hk3uX8tiDZ7ndXejWiI
-				Y4X3xOq8gKx3jfbsWKR9/6gomyQWVeKqjRya3qul7VkJLeqixMurclHX5PJGuYYBApNnG0KK0iPv
-				s97lvmq7R5+LvpH36hOldrBNw+e1rXHNOJaKT5Pa2e7UvoAd2KvR7pZPVmaDRc7caLPdLd3mfYdD
-				96qS/OLicE00DJzK5PtmKXSDy82dvazNf5Q0D65DS14VU1U704RCgt/mNUkjv+x13KWmG+1Goht8
-				fL1fOv9N7m77sCIxGoVPsnbsxuXvpOpTrJ0EvvMf31FPBr3S2WUCgLGg4TCmlEE0MoGIjCRJOmBE
-				pMiqc8tIpj5SNm+k5gAHbvL6X+EOgNhM8PCiAHnv3c1GtqZaAq4PQADTpKv5LqprcFxjHnAig80W
-				evpa7Iag11KYoAQLPqEGFGdkX/wZWYdEYhE9itfIgNkOX/j01zYFFYpRFHo+N1LaPK4FHmAsUgNx
-				1b5S9elkRzrBJZ/Pbo/8XJzGWB0hMjvcU9eD0cOqyzuHpe53KxhiGFjmfvbWBLlpmKzwy8dlEdzC
-				MB8TY/B1Zh4LlJBdLQvStIJMYHli8mTFzsoF5EYvs8x5xU+T+FSmewpJqIksZjOC/xIQ1rxXtgsP
-				2FUOX4TAQpg/9cuExcbYKhy0RJSj0bDayUxDafU46jIP8B/SAgxazhEzf5oe1WCIhjzxQbtSaxby
-				2VwuIlPr0llDcWgQo3+c9qC9kjcOcYC7cZV7tSyAJDJrWeneW4+Mt6jBpVEwEORUJKcANllphWE4
-				IBe6SZ7zIWMvTJj+NGgogOFUDyM1XnaT2FpeRjtS+GnfMe6paFQTd2wt/2NzEmosFx3ox8BQAQ==|
+			(data |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
+				jtYJOlrhPw==|
 			)
-			(checksum "0775E6881D0332E37B3AC3E848B7760C")
+			(checksum "AB51A199538FC6FED4C99C6B780892FB")
 		)
 	)
 )
